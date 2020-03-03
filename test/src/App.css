@@ -1,0 +1,74 @@
+.AppOwner {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightblue;
+  width: fit-content;
+}
+
+button {
+  background-color: lightblue;
+  color: orangered;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+  border: 1px solid lightblue;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 400px;
+  font-size: 10px;
+  color: orangered;
+}
+
+.homepage button {
+  height: 70px;
+  background-color: burlywood;
+  border: none;
+}
+
+.navButtons button {
+  min-width: 200px;
+  height: 50px;
+}
+
+.checkout{
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+
+.additionButtons {
+  display: flex;
+  align-items: center;
+}
+
+.cartItems {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 2fr;
+  align-items: center;
+  width: 400px;
+  font-size: 10px;
+  color: orangered;
+}
+
+.cartItems button {
+  height: 70px;
+  background-color: burlywood;
+  border: none;
+}
